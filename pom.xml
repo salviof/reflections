@@ -6,7 +6,7 @@
     <artifactId>reflections</artifactId>
     <version>0.9.11-SNAPSHOT</version>
 
-    <name>Reflections</name>
+    <name>Reflections Coletivo</name>
     <description>Reflections - a Java runtime metadata analysis</description>
     <url>http://github.com/ronmamo/reflections</url>
 
@@ -53,10 +53,14 @@
     </distributionManagement>
 
     <properties>
-        <guava.version>18.0</guava.version>
+
+        <guava.version>23.0</guava.version>
         <javassist.version>3.18.2-GA</javassist.version>
-        <jdk.version>1.7</jdk.version>
+        <jdk.version>1.8</jdk.version>
         <additionalparam>-Xdoclint:none</additionalparam>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
